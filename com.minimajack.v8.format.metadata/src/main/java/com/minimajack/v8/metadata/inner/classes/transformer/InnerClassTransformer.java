@@ -489,6 +489,9 @@ public class InnerClassTransformer implements AbstractTransformer<V8InnerClass> 
     private static final UUID ENUM_CHOICE_HISTORY_ON_INPUT = UUID
             .fromString("12ca4003-ac70-450e-b897-37faf86bd313");
 
+    private static final UUID ENUM_TYPE_REDUCTION_MODE = UUID
+            .fromString("502b7765-f89c-4fd0-924f-0a28d3dc09b7");
+
     private static final UUID ENUM_FULL_TEXT_SEARCH = UUID
             .fromString("3b8e6bdd-d648-49d5-af2f-d46d84f87dd5");
 
@@ -706,6 +709,7 @@ public class InnerClassTransformer implements AbstractTransformer<V8InnerClass> 
         classbyUUID.put(TYPE_DESCRIPTION, PatternDescription.class);
         classbyUUID.put(ENUM_DATA_HISTORY_USE, UnkObjectUuidInt.class);
         classbyUUID.put(DATA_COMPOSITION_SCHEMA, DataCompositionSchema.class);
+        classbyUUID.put(ENUM_TYPE_REDUCTION_MODE, TypeReductionMode.class);
 
     }
 
