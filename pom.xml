@@ -19,7 +19,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<github.global.server>github</github.global.server>
 		<github.repo>com.minimajack.v8.format</github.repo>
-		<github.owner>MinimaJack</github.owner>
+		<github.owner>MinimaJack2</github.owner>
 	</properties>
 
 	<prerequisites>
